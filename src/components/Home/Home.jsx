@@ -2,8 +2,6 @@ import React from 'react';
 import { Route, Link } from 'react-router-dom';
 import './Home.scss';
 import '../../assets/css/style.scss';
-import logo from '../../assets/images/logo-01.png';
-import ninja from '../../assets/images/ninja9.png';
 import { url as urlHelper } from '../../helpers';
 
 export default class Home extends React.Component {
@@ -14,7 +12,7 @@ export default class Home extends React.Component {
         <div className="row">
           <div className="container">
             <div className="grabName">
-              <img src={logo} title="logo" alt="logo" />
+              <h className="customH1">Guess Names of Capital Cities</h>
               <br />
               <br />
               <br />

@@ -4,13 +4,17 @@ $text-color: white;
 #Home {
 }
 body {
-  background: #000000 url(../../assets/images/abs-01.jpg) center top;
-  background-attachment: fixed;
-  background-size: 100%;
-  position: relative;
-  height: 100%;
+  // background: #000000 url(../../assets/images/abs-01.jpg) center top;
+  // background-attachment: fixed;
+  // background-size: 100%;
+  // position: relative;
+  // height: 100%;
 }
-
+.customH1{
+  margin-top: 10px;
+  font-size: 70px;
+  color: white;
+}
 .grabName {
   max-width: 400px;
   width: 100%;
